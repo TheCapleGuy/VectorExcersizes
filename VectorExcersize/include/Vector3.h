@@ -17,6 +17,8 @@ public:
 	void Normalise();
 	Vector3 GetNormal();
 	float VectorDistance(Vector3 &other);
+	float DotProduct(Vector3 &other);
+	float AngleCalculator(Vector3 &other);
 
 };
 

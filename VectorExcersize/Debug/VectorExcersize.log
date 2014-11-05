@@ -1,15 +1,14 @@
-﻿Build started 11/4/2014 5:18:05 PM.
-     1>Project "C:\Users\adrian.caple\Desktop\VectorExcersize\VectorExcersize\VectorExcersize.vcxproj" on node 2 (Build target(s)).
+﻿Build started 11/5/2014 11:43:18 AM.
+     1>Project "C:\Users\adrian.caple\Documents\GitHub\VectorExcersizes\VectorExcersize\VectorExcersize.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt source\VectorExcersize.cpp
-         VectorExcersize.cpp
-     1>c:\users\adrian.caple\desktop\vectorexcersize\vectorexcersize\source\vectorexcersize.cpp(11): warning C4305: 'argument' : truncation from 'double' to 'float'
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt source\Vector3.cpp
+         Vector3.cpp
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\adrian.caple\Desktop\VectorExcersize\Debug\VectorExcersize.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\adrian.caple\Desktop\VectorExcersize\Debug\VectorExcersize.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\adrian.caple\Desktop\VectorExcersize\Debug\VectorExcersize.lib" /MACHINE:X86 Debug\Vector3.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\adrian.caple\Documents\GitHub\VectorExcersizes\Debug\VectorExcersize.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\adrian.caple\Documents\GitHub\VectorExcersizes\Debug\VectorExcersize.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\adrian.caple\Documents\GitHub\VectorExcersizes\Debug\VectorExcersize.lib" /MACHINE:X86 Debug\Vector3.obj
          Debug\VectorExcersize.obj
-         VectorExcersize.vcxproj -> C:\Users\adrian.caple\Desktop\VectorExcersize\Debug\VectorExcersize.exe
-     1>Done Building Project "C:\Users\adrian.caple\Desktop\VectorExcersize\VectorExcersize\VectorExcersize.vcxproj" (Build target(s)).
+         VectorExcersize.vcxproj -> C:\Users\adrian.caple\Documents\GitHub\VectorExcersizes\Debug\VectorExcersize.exe
+     1>Done Building Project "C:\Users\adrian.caple\Documents\GitHub\VectorExcersizes\VectorExcersize\VectorExcersize.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.58
+Time Elapsed 00:00:00.32

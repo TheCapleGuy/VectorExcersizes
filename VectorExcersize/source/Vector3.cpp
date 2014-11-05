@@ -52,9 +52,9 @@ void Vector3::operator=(Vector3 &other)
 Vector3 Vector3::operator*(float scalar)
 {
 	Vector3 temp = *this;
-	temp.x * scalar;
-	temp.y * scalar;
-	temp.z * scalar;
+	temp.x *= scalar;
+	temp.y *= scalar;
+	temp.z *= scalar;
 	return temp;
 }
 
@@ -90,6 +90,25 @@ float Vector3::VectorDistance(Vector3 &other)
 	return sqrt(pow(temp.x - other.x, 2.0f) + 
 				pow(temp.y - other.y, 2.0f) + 
 				pow(temp.z - other.z, 2.0f));
+}
+
+float Vector3::DotProduct(Vector3 &other)
+{
+	Vector3 temp = *this;
+
+	return ( (temp.x * other.x) + (temp.y * other.y) + (temp.z * other.z) );
+}
+
+float Vector3::AngleCalculator(Vector3 &other)
+{
+	Vector3 temp = *this;
+	float dotProduct = temp.DotProduct(other);
+	float Amag, Bmag;
+	Amag = temp.Magnitude();
+	Bmag = other.Magnitude();
+	float angle = acosf(dotProduct);
+	float value = ( angle / (Amag*Bmag));
+	return value;
 }
 
 Vector3::~Vector3()
